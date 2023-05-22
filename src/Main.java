@@ -13,7 +13,7 @@ public class Main {
             System.out.println();
             System.out.println("Vyberte akci, kterou chcete provest:");
             System.out.println("1 - Pridat nového pojisteneho");
-            System.out.println("2 - Seznam všech pojistenych");
+            System.out.println("2 - Seznam vsech pojistenych");
             System.out.println("3 - Vyhledat podle jmena a prijmeni");
             System.out.println("0 - Ukoncit program");
             int volba = Integer.parseInt(sc.nextLine().trim());
