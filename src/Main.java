@@ -32,7 +32,7 @@ public class Main {
                     System.out.println("Opravdu si prejete ukoncit program? (A/N)");
                     String ukonceni = sc.nextLine().toUpperCase().trim();
                     while (!ukonceni.equals("A") && !ukonceni.equals("N")) {
-                        System.out.println("Neplatná odpoved, zadejte prosim 'ano'(A) nebo 'ne'(N): ");
+                        System.out.println("Neplatna odpoved, zadejte prosim 'ano'(A) nebo 'ne'(N): ");
                         ukonceni = sc.nextLine().toUpperCase().trim();
                     }
                     if (ukonceni.equals("A")) {
