@@ -36,7 +36,7 @@ public class SeznamPojistenych {
 
         Pojisteny pojisteny = new Pojisteny(jmeno, prijmeni, vek, telefon);
         pridejPojisteneho(pojisteny);
-        System.out.println("Pojistny " + jmeno + " " + prijmeni + " byl pridan do seznamu.");
+        System.out.println("Pojisteny " + jmeno + " " + prijmeni + " byl pridan do seznamu.");
     }
 
     public static void vypisPojistene() {
